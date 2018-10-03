@@ -16,7 +16,9 @@ class ListingsController < ApplicationController
 
   #Patch fetch
   def update
-    render json: Listing.find_by_id(params[:id]).update(listing_param)
+    @listing = Listing.find(params[:id])
+    @listing.update(listing_param)
+    render json: @listing
   end
 
   #Delete fetch
