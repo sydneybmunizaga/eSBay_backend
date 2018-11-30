@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+eSBay is a project that I built in one week using React.js for the front-end.
 
-Things you may want to cover:
+eSBay is a mock version of the more widely known eBay - the bartering platform for second hand items.
 
-* Ruby version
+In this version, you can create a listing and then see that listing posted inside the lists of all of the other items.
 
-* System dependencies
+When you see the listing, there is a button that says 'Buy'. When you press that button the item is then removed from the list of potential purchases.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+You can also update the information about the listing as well. If you want to change the cost or description of the item - you can with the 'Update' button.
